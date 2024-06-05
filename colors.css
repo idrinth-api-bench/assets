@@ -1,5 +1,4 @@
 html {
-  --highlight-text: hsla(0deg 0% 100% / 100%);
   --warning: darkorange;
 }  
 
@@ -13,7 +12,8 @@ html {
   --background-offset: hsla(204deg 8% 76% / 100%);
   --code-keyword: hsla(31deg 100% 40% / 100%);
   --code-attribute: hsla(219deg 100% 40% / 100%);
-  --code-string: hsla(130deg 100% 40% / 100%);
+  --code-string: hsla(130deg 100% 40% / 100%);  
+  --highlight-text: hsla(0deg 0% 100% / 100%);
 }
 
 .dark-mode {
@@ -26,5 +26,6 @@ html {
   --shadow: rgba(255 255 255 / 50%);
   --code-keyword: hsla(31deg 100% 60% / 100%);
   --code-attribute: hsla(219deg 100% 60% / 100%);
-  --code-string: hsla(130deg 100% 60% / 100%);
+  --code-string: hsla(130deg 100% 60% / 100%);  
+  --highlight-text: hsla(0deg 0% 0% / 100%);
 }
